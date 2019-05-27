@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://sidiousvic:sidiousone99nine@sidious-one-gi4kj.mongodb.net/test?retryWrites=true"
+  "mongoURI": "mongodb+srv://sidiousvic:sidiousone99nine@sidious-one-gi4kj.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "ultraWickedSecret"
 }
