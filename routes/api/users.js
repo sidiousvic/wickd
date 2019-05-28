@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import config from "config";
 const { check, validationResult } = require("express-validator/check");
 
-import User from "../../models/Users";
+import User from "../../models/User";
 
 // @route       POST api/users
 // @desc        Register user
