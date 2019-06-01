@@ -90,6 +90,7 @@ router.post(
 
     try {
       let profile = await Profile.findOne({ user: req.user.id });
+      
       if (profile) {
         // Update
         profile = await Profile.findOneAndUpdate(
