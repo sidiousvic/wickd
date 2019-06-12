@@ -4,8 +4,7 @@ import gravatar from "gravatar";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import config from "config";
-const { check, validationResult } = require("express-validator/check");
-
+import { check, validationResult } from "express-validator/check";
 import User from "../../models/User";
 
 // @route       POST api/users

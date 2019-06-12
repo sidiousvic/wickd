@@ -1,11 +1,11 @@
-import { Router } from "express";
+import Router from "express";
 const router = Router();
 import auth from "../../middleware/auth";
 import User from "../../models/User";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import config from "config";
-const { check, validationResult } = require("express-validator/check");
+import { check, validationResult } from "express-validator/check";
 
 // @route       GET api/users
 // @desc        Test route

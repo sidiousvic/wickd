@@ -1,9 +1,9 @@
-import { Router } from "express";
+import Router from "express";
 const router = Router();
 import auth from "../../middleware/auth";
 import { check, validationResult } from "express-validator/check";
-const request = require("request");
-const config = require("config");
+import request from "request";
+import config from "config";
 import Profile from "../../models/Profile";
 import User from "../../models/User";
 
